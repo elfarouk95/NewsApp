@@ -15,6 +15,7 @@ public class NewsItem  extends RecyclerView.ViewHolder {
         super(itemView);
         Title =itemView.findViewById(R.id.Title);
         desc =itemView.findViewById(R.id.Ndesc);
+
         NImg =itemView.findViewById(R.id.NImg);
 
     }
